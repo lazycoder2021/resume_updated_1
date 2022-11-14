@@ -1,0 +1,452 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Resume</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            font-family: 'Noto Sans'
+        }
+
+        .layout {
+            //border: 1px solid black;
+            height: 800px;
+            width: 800px;
+            margin: 20px auto;
+            border-radius: 10px;
+             
+        }
+
+        .header {
+            height: 180px;
+            display: flex;
+            background-color: #374457;
+            padding:10px;
+        }
+
+        .left {
+            width: 80%;
+            height: 100%;
+            //border: 1px solid black;
+        }
+
+        .left h2{
+            //font-size:30px;
+        }
+
+        .right {
+            width: 20%;
+            height: 100%;
+            //border: 1px solid black;
+        }
+
+        .contact-details {
+            border: 1px solid black;
+            height: 40px;
+            background-color: #2c343f; 
+            color:white; 
+            display:flex; 
+            justify-content:space-around; 
+            align-items:center; 
+        }
+
+        .contact-details .detail{
+            display:flex;
+            justify-content:space-between;
+            align-items:center; 
+        }
+
+            .contact-details .detail p{
+                margin-left:10px;
+            }
+
+            .left h2, h3, h4 {
+                font-weight: 100;
+            }
+
+            .left p{
+                font-size:15px;
+            }
+
+        .right{
+            display:flex;
+            justify-content:center;
+            align-items:center; 
+        }
+
+        .right img{
+            border:0px solid white; 
+            border-radius:50%; 
+            height:100px;
+            width:100px;
+            object-fit:cover;
+        }
+
+        .experience{
+            //border:1px solid red; 
+            height:460px; /********SHOULD MAKE THIS AUTO********************************/
+            display:flex; 
+        }
+
+        .experience.block1{
+            height:auto; 
+            
+        }
+
+        .experience_block{
+            width:50%; 
+            height:100%; 
+            border:1px solid black; 
+            padding:10px;
+            display:flex;
+            flex-direction:column; 
+            justify-content:center; 
+            background-color:lavender; 
+        }
+
+        .experience_block.block1{
+            height:auto; 
+        }
+
+        
+
+        .experience_block ul{
+            margin-top:10px;
+        }
+
+        .experience_block ul li{
+            margin-left:20px;
+            margin-bottom:5px;
+            list-style-type:square; 
+        }
+
+        .experience_block h3 {
+            color:red; 
+        }
+
+        .experience_block h4{
+            
+        }
+
+        table{
+            text-align:center; 
+            margin-bottom:10px;
+        }
+
+        thead{
+            font-weight:bold;
+        }
+
+        td{
+            border:1px solid black;
+        }
+
+        .portfolio {
+            background-color: tomato;
+            text-align: center;
+            
+            border-right:1px solid black;
+            border-left:1px solid black; 
+            padding:4px 0px;
+        }
+
+        @media only screen and (max-width:500px) {
+            .layout {
+                width: 480px;
+                margin-top:0px;
+            }
+
+            .header{
+                height:200px;
+            }
+
+            .contact-details{
+               margin-top:0px;
+               font-size:14px;
+            }
+
+            .experience{
+                flex-direction:column; 
+                height:auto; 
+            }
+
+            .experience_block{
+                width:100%; 
+                flex-wrap:wrap;
+                height:100%; 
+            }
+
+            .left p {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="layout">
+        <div class="header">
+            <div class="left">
+                <h2 style="color:white;">Thilak Kumar Singh</h2>
+                <h3 style="color:white;">Senior Technical Writer</h3>
+                <p style="color:white; margin-top:10px;">
+                    Objective: To utilize my core strengths – English writing and speaking skills – for the benefit of my organization. I possess an excellent writing ability, amply supplemented by sound observational skills, which help me produce appealing and educative content.
+                </p>
+            </div>
+            <div class="right">
+                <img src="thilak.jpg" />
+            </div>
+        </div>
+
+        <div class="contact-details">
+            <div class="detail">
+                <i class="fa fa-envelope-o icon"></i>
+                <p>tksingh2087@gmail.com</p>
+            </div>
+            <div class="detail">
+                <i class="fa fa-map-marker icon"></i>
+                <p>Chennai, India</p>
+            </div>
+            <div class="detail">
+                <i class="fa fa-phone icon"></i>
+                <p>+91 9677050769</p>
+            </div>
+        </div>
+
+        <div class="experience">
+            <div class="experience_block">
+                <h3>WORK EXPERIENCE 1</h3>
+                <h4>Technical Writer</h4>
+                <h4>ADSelfService Plus, ManageEngine, Zoho</h4>
+                <span>June 2010 - June 2012</span>
+                <ul>
+                    <li>Created <a href="https://www.manageengine.com/products/self-service-password/help/admin-guide/index.html" target="_blank">Admin</a> and <a href="https://www.manageengine.com/products/self-service-password/help/user-guide/index.html" target="_blank">User</a> Manual from scratch.</li>
+                    <li>Worked on <a href="https://www.manageengine.com/products/self-service-password/release-notes.html" target="_blank">release notes</a> and Training Manual.</li>
+                    <li>Worked on <a href="https://app.box.com/s/6ic5dfmdmj3h55u8kiv6crgcqgg5v27c" target="_blank">brochure</a>, <a href="https://app.box.com/s/zxmt7uyz5dfexy00smexv844y4tpa6uk" target="_blank">datasheet</a>, and <a href="https://app.box.com/s/0af67ozdz48itfgpoxhlfm5sl9wnsyhu" target="_blank">POC </a>doc.</li>
+                    <li>Worked on UI microcopies and emailers.</li>
+                    <li>Was also responsible for keeping the entire Admin Manual and User Manual up-to-date. (This meant adding new feature pages, updating existing ones, fixing errors, removing unwanted pages , etc.)</li>
+                </ul>
+            </div>
+            <div class="experience_block">
+                <h3>WORK EXPERIENCE 2</h3>
+                <h4>Technical Writer</h4>
+                <h4>ServiceDesk Plus, ManageEngine, Zoho</h4>
+                <span>June 2012 - Jan 2015</span>
+                <ul>
+                    <li>Created <a href="https://help.servicedeskplus.com/projects" target="_blank">Projects</a> and <a href="https://help.servicedeskplus.com/changes" target="_blank">Changes</a> module of Admin Manual from scratch.</li>
+                    <li>Created <a href="https://userguide.servicedeskplus.com/manage-projects" target="_blank">Projects</a> and <a href="https://userguide.servicedeskplus.com/access-changes" target="_blank">Changes</a> module of User Manual from scratch.</li>
+                    <li>Was responsible for documenting <a href="https://www.manageengine.com/products/service-desk/sdpod-v3-api/changes/change.html#add-change" target="_blank">Changes</a> and <a href="https://www.manageengine.com/products/service-desk/sdpod-v3-api/projects/project.html#add-project" target="_blank">Projects</a> related APIs</li>
+                    <li>Was also responsible for keeping the entire <a href="https://help.servicedeskplus.com/introduction" target="_blank">Admin Manual</a>, <a href="https://userguide.servicedeskplus.com/home" target="">User Manual, </a> and <a href="https://www.manageengine.com/products/service-desk/sdpod-v3-api/" target="_blank">API manual</a> up-to-date. (This meant adding new feature pages, updating existing ones, fixing errors, removing unwanted pages etc.,)</li>
+                    <li>Worked on <a href="videos.html" target="_blank">several screencasts (or video tutorials)</a>.</li>
+                    <li>Was also responsible for documenting <a href="https://www.manageengine.com/products/service-desk/on-premises/readme.html" target="_blank">release notes</a>.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="experience">
+            <div class="experience_block block1">
+                <h3>WORK EXPERIENCE 3</h3>
+                <h4>Technical Writer</h4>
+                <h4>Freelancer, Self-Employed</h4>
+                <span>Feb 2015 - July 2016</span>
+                <ul>
+                    <li>Worked on technical blogs and help docs.</li>
+                    <li>Worked on several web pages and web copies.</li>
+                    <li>Worked on UI microcopies and emailers.</li>
+                    <li>Worked on video tutorials and release notes.</li>
+                </ul>
+            </div>
+            <div class="experience_block block1">
+                <h3>WORK EXPERIENCE 4</h3>
+                <h4>Senior Technical Writer</h4>
+                <h4>ChangePond Technologies</h4>
+                <span>Aug 2016 - Jan 2017</span>
+                <ul>
+                    <li>Worked on various modules of the ASIS (Assets and Services Information System) manual.</li>
+                    <li>Mentored freshers and junior writers.</li>
+                    <li>Served as a convener and moderator for meetings between the client and the business development team.</li>
+                    <li>Was also responsible for crafting marketing copies.</li>
+                </ul>
+                <br/>
+                <p><strong>*</strong>&nbsp; <i>Work cannot be disclosed as it was done under NDA.</i></p>
+            </div>
+        </div>
+        <div class="experience">
+            <div class="experience_block">
+                <h3>WORK EXPERIENCE 5</h3>
+                <h4>Senior Content Writer</h4>
+                <h4>Comodo Security Solutions</h4>
+                <span>Apr 2017 - July 2018</span>
+                <ul>
+                    <li>Worked on <a href="https://www.comodo.co.in/free-internet-security" target="_blank">several web pages</a> and <a href="https://securebox.comodo.com/blog/pos-security/choosing-pos-system-things-consider/?af=9418" target="_blank">blogs</a>.</li>
+                    <li>Worked on <a href="https://help.comodo.com/product-289-Comodo-One-MSP.html" target="_blank">help docs</a> of many products.</li>
+                    <li>Managed a team of 5 writers.</li>
+                    <li>Helped team members write attractive, goal-oriented, and keyword-dense articles.</li>
+                    <li>Was responsible for connecting with SMEs and onshore think-thank of Comodo for knowledge reception and goal setting.</li>
+                </ul>
+            </div>
+            <div class="experience_block">
+                <h3>WORK EXPERIENCE 6</h3>
+                <h4>Senior Technical Writer</h4>
+                <h4>Allsec Technologies Limited</h4>
+                <span>June 2010 - June 2013</span>
+                <ul>
+                    <li>Created Allsec's Smartpay user manual from scratch.</li>
+                    <li>Created Allsec's Smartpay quick start guide from scratch.</li>
+                    <li>Was also responsible for keeping both the user manual and quick start guide up-to-date.</li>
+            
+                </ul>
+                <br/>
+                <p><strong>*</strong>&nbsp; <i>Work cannot be disclosed as it was done under NDA.</i></p>
+            </div>
+        </div>
+
+        <div class="experience">
+            <div class="experience_block">
+                <h3>WORK EXPERIENCE 7</h3>
+                <h4>Business Owner</h4>
+                <h4>DesignNDeliver</h4>
+                <span>June 2019 - Present</span>
+                <ul>
+
+                    <li>
+                        Responsible for interacting with clients for ideating and prototyping websites based on their requirements.
+
+                    </li>
+                    <li>Responsible for writing web page content and blogs.</li>
+                   
+                    <li>Responsible for designing and developing the website to a certain extent.</li>
+                </ul>
+            </div>
+            <div class="experience_block">
+                <h3>CAREER HIGHPOINTS</h3>
+                
+                <ul>
+                    <li>Being appreciated for creating short video tutorials or screencasts that reduced the support team's workload and enriched the user's product experience. </li>
+                    <li>Getting the opportunity to serve as a mediator between teams (especially between business analysts/product engineers and the writing team) because of my communication and technical skills.</li>
+                    <li>Getting the opportunity to manage/mentor writers on different aspects of writing. </li>
+                    
+                </ul>
+            </div>
+        </div>
+
+        <div class="experience">
+            <div class="experience_block block1">
+                <h3>SKILLS</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <td>Skill</td>
+                            <td>Level of Comfort <br/>(On The Scale of 10)</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Technical Writing</td>
+                            <td>9</td>
+                        </tr>
+                        <tr>
+                            <td>Documenting REST APIs</td>
+                            <td>9</td>
+                        </tr>
+                        <tr>
+                            <td>Testing REST API Endpoints (Using POSTMAN, cURL etc)</td>
+                            <td>9</td>
+                        </tr>
+
+                        <tr>
+                            <td>ScreenCasting Skills</td>
+                            <td>7</td>
+                        </tr>
+                        <tr>
+                            <td>Flow Diagrams/Flowchart Skills</td>
+                            <td>7</td>
+                        </tr>
+                        <tr>
+                            <td>JavaScript, JSON, XML</td>
+                            <td>6</td>
+                        </tr>
+                        <tr>
+                            <td>GitHub/Version Control Systems</td>
+                            <td>6</td>
+                        </tr>
+                        <tr>
+                            <td>Help Authoring Tools</td>
+                            <td>6</td>
+                        </tr>
+                        <tr>
+                            <td>Website Content Writing</td>
+                            <td>9</td>
+                        </tr>
+                        <tr>
+                            <td>Website Copy Writing</td>
+                            <td>7</td>
+                        </tr>
+                        <tr>
+                            <td>Basic SEO Knowledge</td>
+                            <td>7</td>
+                        </tr>
+                        <tr>
+                            <td>Designing (Using HTML & CSS)</td>
+                            <td>6</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="experience_block block1">
+                <h3>EDUCATION</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <td>Degree/Course</td>
+                            <td>Name of the Institute</td>
+                            <td>Year of Passing</td>
+                        </tr>
+                        </thead>
+                    <tbody>
+                        <tr>
+                            <td>B.Sc (Computer Science)</td>
+                            <td>MNM Jain College</td>
+                            <td>2010</td>
+                        </tr>
+                        <tr>
+                            <td>Higher Secondary</td>
+                            <td>St Josephs A.I.B.H.S.S</td>
+                            <td>2004</td>
+                        </tr>
+                        <tr>
+                            <td>Higher School</td>
+                            <td>St Josephs A.I.B.H.S.S</td>
+                            <td>2002</td>
+                        </tr>
+                    </tbody>
+                    
+                </table>
+            </div>
+        </div>
+
+        <div class="portfolio">To know more about me, visit my <a href="https://ecstatic-hugle-5d35f5.netlify.app/" target="_blank">portfolio website</a>. </div>
+
+        <div class="contact-details">
+            <div class="detail">
+                <i class="fa fa-envelope-o icon"></i>
+                <p>tksingh2087@gmail.com</p>
+            </div>
+            <div class="detail">
+                <i class="fa fa-map-marker icon"></i>
+                <p>Chennai, India</p>
+            </div>
+            <div class="detail">
+                <i class="fa fa-phone icon"></i>
+                <p>+91 9677050769</p>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

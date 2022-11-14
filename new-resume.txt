@@ -1,0 +1,70 @@
+1. adssp admin guide
+2. adssp user guide
+3. sdp admin guide
+4. sdp user guide
+5. adssp brochure (old version) (should publish this) 
+6. adssp datasheet (old version) (should publish this) 
+7. sdp api manual
+8. adssp release notes 
+9. sdp release notes 
+10. adssp poc doc (should publish this) 
+11. sdp video demos (now take down due to software updates) (local version) 
+12. comodo help files (cherry pick products + webpages + blogs) 
+13. changepond ASIS project + Allsec Smartpay Docs (Bound by NDA) 
+
+=======================================================
+
+zoho (show work links) 
+freelancer (getting work via online portals like upwork, freelancer etc) 
+changepond  (bound by NDA) 
+comodo (show work links)
+allsec (bound by NDA) 
+designNdeliver (getting work via online + through word of mouth) 
+
+=========================================================
+
+Technical Writer, ADSelfService Plus, ManageEngine, Zoho 
+
+	My Role (What I Did) + Work Samples
+
+Technical Writer, ServiceDesk Plus, ManageEngine, Zoho 
+
+	My Role (What I Did) + Work Samples
+
+Freelancer
+
+	What I Did, How I Acquired Work 
+
+Senior Technical Writer, ChangePond Technologies Ltd
+
+        My Role (What I Did) + Work Samples (Bound by NDA) 
+
+Senior Content Writer, Comodo Security Solutions Private Ltd
+
+        My Role (What I Did) + Work Samples 
+
+Senior Technical Writer, Allsec Technologies Limited
+
+       My Role (What I Did) + Work Samples (Bound by NDA)
+
+DesignNDeliver
+ 
+       Sample Clients (Logistics + Vikalp + Pediatrician) 
+
+================================================================
+
+Skills Acquired 
+
+Technical Writing, Website Content Writing, Website Copy Writing, Designing (Using html & css), ScreenCasting, JavaScript, Github, Testing REST APIs (POSTMAN), Documenting REST APIs, Basic SEO Knowledge, Flow Diagrams/Flowcharts 
+
+===============================================================
+
+Education & Personal Details 
+
+===============================================================
+
+
+
+
+
+
